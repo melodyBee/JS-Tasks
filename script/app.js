@@ -50,23 +50,62 @@
 //----------------------------------------------------------------------------------------------------------------------------------------------------------
 //12-4-2023
 // Task:3 Secret number
-var SecretNumber= 6;
-var num=prompt("Guess a number between 1-10");
-if(num>SecretNumber)
-{
-    alert("Your number is greater than the secret number");
-}
-else if(num<SecretNumber)
-{
-    alert("Your number is Less than the secret number");
-}
-else{
-    alert("Congrats you guessed it correct");
-}
-
+// var SecretNumber= 6;
+// var num=prompt("Guess a number between 1-10");
+// if(num>SecretNumber)
+// {
+//     alert("Your number is greater than the secret number");
+// }
+// else if(num<SecretNumber)
+// {
+//     alert("Your number is Less than the secret number");
+// }
+// else{
+//     alert("Congrats you guessed it correct");
+// }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 // Task:4 Capitilizing first letter
 // var name.toLowerCase()=prompt("Enter your name");
 // alert(name);
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+//Task:5 
+
+// var contactNames=[];
+// var contactNumbers=[];
+// for()
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------
+//Task:7
+var nationality=prompt("Enter your nationality");
+var age=prompt("Enter your age");
+var gender=prompt("Enter your gender\n1.male\n2.female");
+
+if(nationality=="Pakistani"||"Indian")
+{
+    if(gender==1 && age>18){
+        alert("you are eligeble to vote");
+    }
+    else if(gender==2)
+    {
+        var maritalStatus=prompt("Enter \n1. If you are married. \n2.If you are not.")
+        if(maritalStatus==1)
+        {alert("You are eligible to vote");
+        }
+        else{
+            alert("You are not eligible to vote");
+        }
+    }
+    else{alert("wrong entery");}
+}
+else{
+    alert=("you are not eligible to vote");
+}
+
+
 
 //Creating a table
 // var j=parseInt(prompt("Type which number of the table you want"));
