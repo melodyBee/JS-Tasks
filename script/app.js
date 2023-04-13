@@ -4,21 +4,6 @@
 // var user_input=prompt("Enter your number","00");
 // var result= +user_input*zakat_percentage;
 // alert("your zakat value is "+ result);
-
-
-// 11-4-2023
-// Practice today's code
-// var x = prompt("Where does the Pope live?");
-// if (x === "Vatican") {
-// alert("Correct!");
-// }
-// var x = prompt("Where does the Pope live?");
-// var correctAnswer = "Vatican";
-// if (x == correctAnswer) {
-// score++;
-// userIQ = "genius";
-// alert("Correct! ");
-// }
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 // Task:2 Fitrah calculation
 // var familyMembers=prompt("Enter total number of family members");
@@ -46,7 +31,6 @@
 // {
 //     alert("wrong entry")
 // }
-
 //----------------------------------------------------------------------------------------------------------------------------------------------------------
 //12-4-2023
 // Task:3 Secret number
@@ -73,13 +57,22 @@
 //Task:5 
 // var contactNames=[];
 // var contactNumbers=[];
-// for(i=0;i>3;i++)
+// for(i=0;i<3;i++)
 // {
-//     contactNames=prompt("enter you user name");
-//     contactNumbers=prompt("enter your number");
+//    var name=prompt("enter you user name");
+//    var number= prompt("enter your number");
+//    contactNames.push(name);
+//    contactNumbers.push(number);
 // }
 
-
+// for(i=0;i<3;i++)
+// {
+// console.log(contactNames+contactNumbers);
+// console.log(contactNumbers);
+// }
+//-------------------------------------------------------------------------------------------------------------------------------------------------------
+//Task:6
+// var products=[Ketchup,Mayonnaise,Mustard,BBQ Sauce,auqat]
 
 
 
@@ -111,18 +104,12 @@
 // }
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:8
-
+var Pk_Team=[Babar Azam ,Shadab Khan ,Asif Ali ,Fakhar Zaman ,Haider Ali ,Haris Rauf,Iftikar Ahmed,Khushdil Shah, Mohammad Hasnain,Mohammad Nawaz,Mohammad Rizwan,Mohammad Wasim,Naseem Shah, Saheen Shah Afridi,Shan Masood];
+console.log(Pk_Team.length);
 
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//Creating a table
-// var j=parseInt(prompt("Type which number of the table you want"));
-// for(i=1;i<=10;i++)
-// {
-//     result= j*i;
-//     console.log( j +"x" +i+"="+ result)
-// }
 
 
 
