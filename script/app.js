@@ -65,14 +65,19 @@
 // }
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 // Task:4 Capitilizing first letter
-// var name.toLowerCase()=prompt("Enter your name");
-// alert(name);
+// var name=prompt("Enter your name");
+// var x= name.slice(0,1).toUpperCase();
+// var y= name.slice(1).toLowerCase();
+// alert(x+y);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:5 
-
 // var contactNames=[];
 // var contactNumbers=[];
-// for()
+// for(i=0;i>3;i++)
+// {
+//     contactNames=prompt("enter you user name");
+//     contactNumbers=prompt("enter your number");
+// }
 
 
 
@@ -80,32 +85,36 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:7
-var nationality=prompt("Enter your nationality");
-var age=prompt("Enter your age");
-var gender=prompt("Enter your gender\n1.male\n2.female");
+// var nationality=prompt("Enter your nationality");
+// var age=prompt("Enter your age");
+// var gender=prompt("Enter your gender\n1.male\n2.female");
 
-if(nationality=="Pakistani"||"Indian")
-{
-    if(gender==1 && age>18){
-        alert("you are eligeble to vote");
-    }
-    else if(gender==2)
-    {
-        var maritalStatus=prompt("Enter \n1. If you are married. \n2.If you are not.")
-        if(maritalStatus==1)
-        {alert("You are eligible to vote");
-        }
-        else{
-            alert("You are not eligible to vote");
-        }
-    }
-    else{alert("wrong entery");}
-}
-else{
-    alert=("you are not eligible to vote");
-}
+// if(nationality=="Pakistani"||"Indian")
+// {
+//     if(gender==1 && age>18){
+//         alert("you are eligeble to vote");
+//     }
+//     else if(gender==2)
+//     {
+//         var maritalStatus=prompt("Enter \n1. If you are married. \n2.If you are not.")
+//         if(maritalStatus==1)
+//         {alert("You are eligible to vote");
+//         }
+//         else{
+//             alert("You are not eligible to vote");
+//         }
+//     }
+//     else{alert("wrong entery");}
+// }
+// else{
+//     alert=("you are not eligible to vote");
+// }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+//Task:8
 
 
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //Creating a table
 // var j=parseInt(prompt("Type which number of the table you want"));
