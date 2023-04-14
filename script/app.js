@@ -103,11 +103,14 @@
 //     alert=("you are not eligible to vote");
 // }
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
+//14-4-2023
 //Task:8
-var Pk_Team=[Babar Azam ,Shadab Khan ,Asif Ali ,Fakhar Zaman ,Haider Ali ,Haris Rauf,Iftikar Ahmed,Khushdil Shah, Mohammad Hasnain,Mohammad Nawaz,Mohammad Rizwan,Mohammad Wasim,Naseem Shah, Saheen Shah Afridi,Shan Masood];
-console.log(Pk_Team.length);
-
-
+// var WorldCupSquad=['Babar Azam' ,  'Shadab Khan' ,  'Asif Ali' ,  'Fakhar Zaman' ,  'Haider Ali' ,  'Haris Rauf' ,  'Iftikhar Ahmed' ,  'Khushdil Shah',  'Mohammad Hasnain' ,  'Mohammad Nawaz' ,  'Mohammad Rizwan' ,  'Mohammad Wasim' ,  'Naseem Shah' ,  'Shaheen Shah Afridi' ,  'Shan Masood'];
+// console.log(WorldCupSquad);
+// console.log(WorldCupSquad.length);
+// final_team=WorldCupSquad.slice(0,11);
+// console.log(final_team)
+// console.log(final_team.length);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
