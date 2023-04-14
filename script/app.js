@@ -52,31 +52,34 @@
 // var name=prompt("Enter your name");
 // var x= name.slice(0,1).toUpperCase();
 // var y= name.slice(1).toLowerCase();
-// alert(x+y);
+// var z= x.concat(y);
+// alert(z);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:5 
 // var contactNames=[];
 // var contactNumbers=[];
 // for(i=0;i<3;i++)
 // {
-//    var name=prompt("enter you user name");
-//    var number= prompt("enter your number");
-//    contactNames.push(name);
-//    contactNumbers.push(number);
+//    var x=prompt("enter you user name");
+//    var y= prompt("enter your number");
+//    contactNames.push(x);
+//    contactNumbers.push(y);
 // }
 
-// for(i=0;i<3;i++)
+// for(j=0;j<3;j++)
 // {
-// console.log(contactNames+contactNumbers);
-// console.log(contactNumbers);
+//     var name2=contactNames[j];
+//     var number2=contactNumbers[j];
+// console.log(name2 + number2);
 // }
-//-------------------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:6
-// var products=[Ketchup,Mayonnaise,Mustard,BBQ Sauce,auqat]
+// var products=['Ketchup','Mayonnaise','Mustard','BBQ Sauce'];
+// var position=prompt("Enter the number of the product you want:\n1.Ketchup\n2.Mayonnaise\n3.Mustard\n4.BBQ Sauce");
 
 
-
-//-------------------------------------------------------------------------------------------------------------------------------------------------------
+// console.log(products.length);
+//--------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:7
 // var nationality=prompt("Enter your nationality");
 // var age=prompt("Enter your age");
@@ -102,7 +105,7 @@
 // else{
 //     alert=("you are not eligible to vote");
 // }
-//---------------------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------
 //14-4-2023
 //Task:8
 // var WorldCupSquad=['Babar Azam' ,  'Shadab Khan' ,  'Asif Ali' ,  'Fakhar Zaman' ,  'Haider Ali' ,  'Haris Rauf' ,  'Iftikhar Ahmed' ,  'Khushdil Shah',  'Mohammad Hasnain' ,  'Mohammad Nawaz' ,  'Mohammad Rizwan' ,  'Mohammad Wasim' ,  'Naseem Shah' ,  'Shaheen Shah Afridi' ,  'Shan Masood'];
@@ -111,7 +114,6 @@
 // final_team=WorldCupSquad.slice(0,11);
 // console.log(final_team)
 // console.log(final_team.length);
-//--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
