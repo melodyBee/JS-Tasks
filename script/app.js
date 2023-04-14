@@ -76,11 +76,11 @@
 //Task:6
 // var products=['Ketchup','Mayonnaise','Mustard','BBQ Sauce'];
 // var position=prompt("Enter the number of the product you want:\n1.Ketchup\n2.Mayonnaise\n3.Mustard\n4.BBQ Sauce");
-
-
-// console.log(products.length);
+// Removed_item=products.slice(position -1 ,position)
+// console.log(Removed_item);
 //--------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:7
+
 // var nationality=prompt("Enter your nationality");
 // var age=prompt("Enter your age");
 // var gender=prompt("Enter your gender\n1.male\n2.female");
@@ -90,7 +90,7 @@
 //     if(gender==1 && age>18){
 //         alert("you are eligeble to vote");
 //     }
-//     else if(gender==2)
+//     else if(gender==2 && age>18)
 //     {
 //         var maritalStatus=prompt("Enter \n1. If you are married. \n2.If you are not.")
 //         if(maritalStatus==1)
@@ -105,9 +105,11 @@
 // else{
 //     alert=("you are not eligible to vote");
 // }
+
 //--------------------------------------------------------------------------------------------------------------------------------------------------
 //14-4-2023
 //Task:8
+
 // var WorldCupSquad=['Babar Azam' ,  'Shadab Khan' ,  'Asif Ali' ,  'Fakhar Zaman' ,  'Haider Ali' ,  'Haris Rauf' ,  'Iftikhar Ahmed' ,  'Khushdil Shah',  'Mohammad Hasnain' ,  'Mohammad Nawaz' ,  'Mohammad Rizwan' ,  'Mohammad Wasim' ,  'Naseem Shah' ,  'Shaheen Shah Afridi' ,  'Shan Masood'];
 // console.log(WorldCupSquad);
 // console.log(WorldCupSquad.length);
