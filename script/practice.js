@@ -14,10 +14,12 @@
 //-------------------------------------------------------------------------------
 // 12-4-23
 //Creating a table
-// var j=parseInt(prompt("Type which number of the table you want"));
-// for(i=1;i<=10;i++)
-// {
-//     result= j*i;
-//     console.log( j +"x" +i+"="+ result)
-// }
+Function table(){
+var j=parseInt(prompt("Type which number of the table you want"));
+for(i=1;i<=10;i++)
+{
+    result= j*i;
+    console.log( j +"x" +i+"="+ result)
+}
+}
 //-------------------------------------------------------------------------------
