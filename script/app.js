@@ -8,6 +8,7 @@ alert("your zakat value is "+ result);
 }
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 // Task:2 Fitrah calculation
+function Fcal(){
 var familyMembers=prompt("Enter total number of family members");
 var Form_of_fitrah=prompt("Enter the number of which form you want:\n1.Wheat 250 rs\n2.Groats 450 rs\n3.Dates 2100 rs\n4.Rasins 2800 rs");
  if(Form_of_fitrah==1){
@@ -33,53 +34,62 @@ else
 {
     alert("wrong entry")
 }
+}
 //----------------------------------------------------------------------------------------------------------------------------------------------------------
 //12-4-2023
 // Task:3 Secret number
-// var SecretNumber= 6;
-// var num=prompt("Guess a number between 1-10");
-// if(num>SecretNumber)
-// {
-//     alert("Your number is greater than the secret number");
-// }
-// else if(num<SecretNumber)
-// {
-//     alert("Your number is Less than the secret number");
-// }
-// else{
-//     alert("Congrats you guessed it correct");
-// }
+function numberguess(){
+var SecretNumber= 6;
+var num=prompt("Guess a number between 1-10");
+if(num>SecretNumber)
+{
+    alert("Your number is greater than the secret number");
+}
+else if(num<SecretNumber)
+{
+    alert("Your number is Less than the secret number");
+}
+else{
+    alert("Congrats you guessed it correct");
+}
+}
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 // Task:4 Capitilizing first letter
-// var name=prompt("Enter your name");
-// var x= name.slice(0,1).toUpperCase();
-// var y= name.slice(1).toLowerCase();
-// var z= x.concat(y);
-// alert(z);
+function name(){
+var name1=prompt("Enter your name");
+var x= name1.slice(0,1).toUpperCase();
+var y= name1.slice(1).toLowerCase();
+var z= x.concat(y);
+alert(z);
+}
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:5 
-// var contactNames=[];
-// var contactNumbers=[];
-// for(i=0;i<3;i++)
-// {
-//    var x=prompt("enter you user name");
-//    var y= prompt("enter your number");
-//    contactNames.push(x);
-//    contactNumbers.push(y);
-// }
+function userinfo(){
+var contactNames=[];
+var contactNumbers=[];
+for(i=0;i<3;i++)
+{
+   var x=prompt("enter you user name");
+   var y= prompt("enter your number");
+   contactNames.push(x);
+   contactNumbers.push(y);
+}
 
-// for(j=0;j<3;j++)
-// {
-//     var name2=contactNames[j];
-//     var number2=contactNumbers[j];
-// console.log(name2 + number2);
-// }
+for(j=0;j<3;j++)
+{
+    var name2=contactNames[j];
+    var number2=contactNumbers[j];
+console.log(name2 + number2);
+}
+}
 //------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:6
-// var products=['Ketchup','Mayonnaise','Mustard','BBQ Sauce'];
-// var position=prompt("Enter the number of the product you want:\n1.Ketchup\n2.Mayonnaise\n3.Mustard\n4.BBQ Sauce");
-// Removed_item=products.slice(position -1 ,position)
-// console.log(Removed_item);
+function 
+var products=['Ketchup','Mayonnaise','Mustard','BBQ Sauce'];
+var position=prompt("Enter the number of the product you want:\n1.Ketchup\n2.Mayonnaise\n3.Mustard\n4.BBQ Sauce");
+Removed_item=products.slice(position -1 ,position)
+console.log(Removed_item);
+}
 //--------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:7
 
