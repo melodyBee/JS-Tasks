@@ -1,6 +1,6 @@
 
 // Task:1 Zakah calclation
-Function Zcal(){
+function Zcal(){
 var zakat_percentage= 0.025;
 var user_input=prompt("Enter your number","00");
 var result= +user_input*zakat_percentage;
@@ -84,7 +84,7 @@ console.log(name2 + number2);
 }
 //------------------------------------------------------------------------------------------------------------------------------------------------
 //Task:6
-function 
+function proPosition() {
 var products=['Ketchup','Mayonnaise','Mustard','BBQ Sauce'];
 var position=prompt("Enter the number of the product you want:\n1.Ketchup\n2.Mayonnaise\n3.Mustard\n4.BBQ Sauce");
 Removed_item=products.slice(position -1 ,position)

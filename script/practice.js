@@ -1,5 +1,5 @@
-function 11-4-2023(){
-Practice today's code
+// 11-4-2023
+function practice1(){
 var x = prompt("Where does the Pope live?");
 if (x === "Vatican") {
 alert("Correct!");
@@ -12,6 +12,7 @@ userIQ = "genius";
 alert("Correct! ");
 }
 }
+
 // 12-4-23
 //Creating a table
 function table(){
@@ -22,8 +23,56 @@ for(i=1;i<=10;i++)
     console.log( j +"x" +i+"="+ result)
 }
 }
-// 29-4-2023
-//Make a func to check if the current year is leap year or not
-function leapYear(){
-    var leap_Year=prompt("")
+//Creating functions
+function func1(){
+  console.log("This is how you create a function");
 }
+// func1();
+
+//practice
+function normalformdate(){
+var something= new Date();
+var date= something.getDate();
+var month= something.getMonth()+1;
+var year=something.getFullYear();
+console.log(date+"/"+month+"/"+year );
+}
+
+
+
+// 29-4-2023
+// Leap Year or not
+function LeapYear() {
+    var ThisYear = new Date().getFullYear();
+    var x= new Date(ThisYear, 1, 29).getDate()==29;
+    if (x) {
+      console.log("This year is a leap year");
+    } else {
+      console.log("This year is not a leap year");
+    }
+  }
+//   LeapYear();
+  
+//Leap Year in future
+function tenYears(){
+  var now= new Date().getFullYear();
+  for(i=0;i<9;i++){
+    var year=now++;
+    var x= new Date(year, 1, 29).getDate()==29;
+    if (x) {
+      console.log(year+" "+"is a leap year");
+    } else {
+      console.log(year+" "+ "is not a leap year");
+    }
+  }
+}
+// tenYears();
+// OTP
+// function OTP(){
+//   var OTP = Math.ceil((Math.random()*3650)*(Math.random()*1000))
+//   return "G-" +OTP
+// }
+// var getOTP = OTP()
+// console.log(getOTP)
+
+//Age Calculation
