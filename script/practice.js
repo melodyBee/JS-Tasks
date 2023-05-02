@@ -28,7 +28,7 @@ function func1(){
   console.log("This is how you create a function");
 }
 // func1();
-
+//------------------------------------------------------------------------------------------------------------------------------------------------------------
 //practice
 function normalformdate(){
 var something= new Date();
@@ -38,8 +38,7 @@ var year=something.getFullYear();
 console.log(date+"/"+month+"/"+year );
 }
 
-
-
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 // 29-4-2023
 // Leap Year or not
 function LeapYear() {
@@ -52,7 +51,7 @@ function LeapYear() {
     }
   }
 //   LeapYear();
-  
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 //Leap Year in future
 function tenYears(){
   var now= new Date().getFullYear();
@@ -66,13 +65,22 @@ function tenYears(){
     }
   }
 }
-// tenYears();
+tenYears();
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 // OTP
-// function OTP(){
-//   var OTP = Math.ceil((Math.random()*3650)*(Math.random()*1000))
-//   return "G-" +OTP
-// }
+function OTP(){
+  var OTP = Math.ceil((Math.random()*3650)*(Math.random()*1000))
+  return "G-" +OTP
+}
 // var getOTP = OTP()
 // console.log(getOTP)
-
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Make a function that converts strings into capital case
+// function Capitilizing(x){
+//   var x= x.toUpperCase();
+//   alert(x);
+// }
+// x= prompt("Enter string you want capitalized")
+// Capitilizing(x);
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 //Age Calculation
