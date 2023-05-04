@@ -69,11 +69,11 @@ function tenYears(){
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 // OTP
 function OTP(){
-  var OTP = Math.ceil((Math.random()*3650)*(Math.random()*1000))
-  return "G-" +OTP
+  var OTP=Math.ceil((Math.random()*1000)*(Math.random()*1000));
+  return OTP;
 }
-// var getOTP = OTP()
-// console.log(getOTP)
+var getOTP = OTP();
+console.log("G- "+getOTP);
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Make a function that converts strings into capital case
 function Capitilizing(x){
@@ -86,9 +86,9 @@ function Capitilizing(x){
 //Age Calculation
 function age(user,currntyear){
   var Age= currntyear-user;
-  alert(Age)
+  alert(Age);
 }
-  var user= prompt("Birth Year");
-  var currntyear= new Date().getFullYear();
-  age(user,currntyear);
+  // var user= prompt("Birth Year");
+  // var currntyear= new Date().getFullYear();
+  // age(user,currntyear);
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
