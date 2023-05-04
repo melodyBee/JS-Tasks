@@ -65,7 +65,7 @@ function tenYears(){
     }
   }
 }
-tenYears();
+// tenYears();
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 // OTP
 function OTP(){
@@ -75,14 +75,20 @@ function OTP(){
 // var getOTP = OTP()
 // console.log(getOTP)
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
-//Make a function that converts strings into capital case
-// function Capitilizing(x){
-//   var x= x.toUpperCase();
-//   alert(x);
-// }
+// Make a function that converts strings into capital case
+function Capitilizing(x){
+  var x= x.toUpperCase();
+  alert(x);
+}
 // x= prompt("Enter string you want capitalized")
 // Capitilizing(x);
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 //Age Calculation
-
+function age(user,currntyear){
+  var Age= currntyear-user;
+  alert(Age)
+}
+  var user= prompt("Birth Year");
+  var currntyear= new Date().getFullYear();
+  age(user,currntyear);
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------

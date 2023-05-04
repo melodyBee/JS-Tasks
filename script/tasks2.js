@@ -29,20 +29,20 @@ function d(Radion){
 }
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
-var input=prompt("Enter a: Fahrenheit-Celsius \nb: Celsius-Fahrenheit \nc: Radion-Degree \nd: Degree-Radion")
+// var input=prompt("Enter a: Fahrenheit-Celsius \nb: Celsius-Fahrenheit \nc: Radion-Degree \nd: Degree-Radion")
 
-switch (input){
-    case "a": var Celsius= prompt("Enter celcius");
-     a(Celsius);
-     break;
-    case "b": var Fahrenheit= prompt("Enter fahrenheit");
-     b(Fahrenheit);
-     break;
-    case "c": var Degree= prompt("Enter Degree");
-     c(Degree);
-     break;
-     case "d": var Radion= prompt("Enter Radion");
-     d(Radion);
-}
+// switch (input){
+//     case "a": var Celsius= prompt("Enter celcius");
+//      a(Celsius);
+//      break;
+//     case "b": var Fahrenheit= prompt("Enter fahrenheit");
+//      b(Fahrenheit);
+//      break;
+//     case "c": var Degree= prompt("Enter Degree");
+//      c(Degree);
+//      break;
+//      case "d": var Radion= prompt("Enter Radion");
+//      d(Radion);
+// }
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 
