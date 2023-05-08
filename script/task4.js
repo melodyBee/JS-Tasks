@@ -37,9 +37,9 @@
 
 //5. Write a script to display the following alert using one JS variable:
 var x="pizza";
-for(j=0;j<5;j++){
+for(x=0;j<5;j++){
     for(i=0;i<5;i--){
-        console.log(j)
+        console.log(x)
     }
 }
 
