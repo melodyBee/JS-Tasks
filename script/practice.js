@@ -73,8 +73,8 @@ function OTP(){
   OTP= Math.round(OTP);
   return OTP;
 }
-var getOTP = OTP();
-console.log(getOTP);
+// var getOTP = OTP();
+// console.log(getOTP);
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Make a function that converts strings into capital case
 function Capitilizing(x){
