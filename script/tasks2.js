@@ -4,6 +4,7 @@ function a (Celsius){
     alert(Fahrenheit);
     }
 
+
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 function b (Fahrenheit){
@@ -29,7 +30,7 @@ function d(Radion){
 }
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
-// var input=prompt("Enter a: Fahrenheit-Celsius \nb: Celsius-Fahrenheit \nc: Radion-Degree \nd: Degree-Radion")
+// var input=prompt("Enter a:Celsius-Fahrenheit  \nb: Fahrenheit-Celsius \nc: Radion-Degree \nd: Degree-Radion")
 
 // switch (input){
 //     case "a": var Celsius= prompt("Enter celcius");

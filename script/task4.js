@@ -36,11 +36,11 @@
 // alert(qualification);
 
 //5. Write a script to display the following alert using one JS variable:
-var x="pizza";
-for(x=0;j<5;j++){
-    for(i=0;i<5;i--){
-        console.log(x)
-    }
-}
+// var x="pizza";
+// for(x=0;j<5;j++){
+//     for(i=0;i<5;i--){
+//         console.log(x)
+//     }
+// }
 
 
